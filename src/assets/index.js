@@ -29,7 +29,8 @@ import threejs from "./tech/threejs.svg";
 
 //Comapny
 import favtutor from "./company/favtutor.png";
-import chegg from "./company/chegg.png"; 
+import chegg from "./company/chegg.png";
+import birdeye from "./company/birdeye.png";
 
 //Projects
 import pollingwebsite from "./projects/pollingwebsite.png";
@@ -45,6 +46,7 @@ export {
   github,
   menu,
   close,
+  // Technologies
   css,
   c,
   java,
@@ -54,7 +56,7 @@ export {
   expressjs,
   aws,
   docker,
-  figma,
+  figma, 
   git,
   html,
   javascript,
@@ -63,8 +65,11 @@ export {
   reactjs,
   tailwind,
   threejs,
+  // Comapnies
   favtutor,
   chegg,
+  birdeye,
+  // Projects
   inotebook,
   mycodeexecuter,
   pollingwebsite

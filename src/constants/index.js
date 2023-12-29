@@ -1,5 +1,11 @@
 import {
-    mobile,backend,creator,web,javascript,html,css,reactjs,expressjs,java,c,mysql,aws,django,python,tailwind,nodejs,mongodb,git,figma,docker,favtutor,chegg,inotebook,pollingwebsite,mycodeexecuter,threejs,
+    mobile,backend,creator,web,
+    // Technologies
+    javascript,html,css,reactjs,expressjs,java,c,mysql,aws,django,python,tailwind,nodejs,mongodb,git,figma,docker,
+    // Companies
+    favtutor,chegg,birdeye,
+    // Projects
+    inotebook,pollingwebsite,mycodeexecuter,threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -49,22 +55,22 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
-  // {
-  //   name: "Java",
-  //   icon: java,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
   // {
   //   name: "C",
   //   icon: c,
@@ -125,15 +131,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Subject Matter Expert ( JAVA )",
-    company_name: "FavTutor",
-    icon: favtutor,
-    iconBg: "#383E56",
-    date: "June 2022 - August 2022",
+    title: "Software Backend Engineer Intern",
+    company_name: "Birdeye",
+    icon: birdeye,
+    iconBg: "#E6DEDD",
+    date: "December 2023 - Current",
     points: [
-      "Working on answering programming questions of Java asked by students",
-      "Conducted live sessions to assist them",
-      "Solving Java projects based on Object Oriented Programming and solving Medium to Hard level DSA problems."
+      "Working on Spring and Springboot technologies",
+      "Working on Virtual Private Cloud.",
     ],
   },
   {
@@ -145,6 +150,18 @@ const experiences = [
     points: [
       "Working on answering technical question of computer science asked by students",
       "Solving Database Queries, Coding Problems, Designing Database Schema, Creating Full stack websites",
+    ],
+  },
+  {
+    title: "Subject Matter Expert ( JAVA )",
+    company_name: "FavTutor",
+    icon: favtutor,
+    iconBg: "#383E56",
+    date: "June 2022 - August 2022",
+    points: [
+      "Working on answering programming questions of Java asked by students",
+      "Conducted live sessions to assist them",
+      "Solving Java projects based on Object Oriented Programming and solving Medium to Hard level DSA problems."
     ],
   }
 ];
